@@ -3,4 +3,4 @@ steps:
   - label: ":pipeline: :champagne:"
     command: "buildkite-agent pipeline upload .buildkite/bubbly-pipeline.yml"
     agents:
-      queue: montagne-de-reims
+      queue: kubernetes
